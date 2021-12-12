@@ -2151,11 +2151,11 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|57d936014f89811481712ac7a08d104b85
 vendor/lib/libdsi_netctrl.so|78206e2c94d0a9ceb69712aeec99ed90f8fc63b3
 vendor/lib/libdsutils.so|bfc2e8fb927ccd35158ceaf4389fe54186091132
 vendor/lib/libqdi.so|6cb8c78aaa70a5fa9b83e260556bada097ca0d14
--vendor/lib/libqmiservices.so|dcff643662bb3e36c2bcfcb831bffec057038c6f
+vendor/lib/libqmiservices.so|dcff643662bb3e36c2bcfcb831bffec057038c6f
 vendor/lib64/libdsi_netctrl.so|3022d69494ad5b9400ed7188b72dc2d72dff9e24
 vendor/lib64/libdsutils.so|fe909f54243f07fc76382b0839f95f96e1abfef2
 vendor/lib64/libqdi.so|5e14939265c9f30c59f4a7964bf83da69ecfa38d
--vendor/lib64/libqmiservices.so|842a1b61fad7dd34753e945ee2ada0fdc9589c09
+vendor/lib64/libqmiservices.so|842a1b61fad7dd34753e945ee2ada0fdc9589c09
 
 # QMI (diag) - from LA.UM.9.6.2.r1-04200-89xx.0
 system_ext/lib64/libdiag_system.so|4d752d29e61f460f242a30b6b7ff62c98980f288
@@ -2365,5 +2365,5 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|933eb7026797f3dadad3d10fd69443b11f6563f3
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|16baab27397ad493e845515c20ac0c0c063c775d
 
-# Wi-Fi - from LA.UM.9.6.2.r1-04200-89xx.0
-vendor/bin/wcnss_service|317325ee182ad09f426975cc6ec44ce33addb052
+# Wi-Fi - from LA.UM.9.6.3.r1-04400-89xx.0
+vendor/bin/wcnss_service|48e4a96a9de69bd83791a3b0b2134f5ab1205adc
