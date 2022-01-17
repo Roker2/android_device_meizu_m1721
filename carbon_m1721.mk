@@ -21,12 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from m1721 device
 $(call inherit-product, device/meizu/m1721/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
+
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := m1721
-PRODUCT_NAME := lineage_m1721
+PRODUCT_NAME := carbon_m1721
 PRODUCT_BRAND := Meizu
 PRODUCT_MODEL := M6 Note
 PRODUCT_MANUFACTURER := Meizu
